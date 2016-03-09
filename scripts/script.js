@@ -22,9 +22,6 @@ var COLOR_CHANGER = {
 
 		var btn = document.querySelector('.btn-change-color-name');
 
-		// btn.onclick = function(){
-		// 	_this.selectColor(_this.colors);
-		// }
 		btn.addEventListener('click', function(){
 			_this.selectColor(_this.colors);
 		}, false);
